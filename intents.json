@@ -1,0 +1,85 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi","hey", "How are you", "Is anyone there?", "Hello", "Good day"],
+     "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "Hey! thats my duty.."]
+    },
+    {"tag": "hours",
+     "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+     "responses": ["We're open every day 9am-pm", "Our hours are 9am-9pm every day"]
+    },
+    {"tag": "payments",
+     "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+     "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+    },
+    {"tag": "opentoday",
+     "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+     "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+    },
+	{"tag": "events",
+     "patterns": ["events?", "What events are held at techyon?", "What are the events held?"],
+     "responses": ["ENIGMA,PIXELS,MECHFEST,MINDSPARK"]
+    },
+	{"tag": "enigmadets",
+     "patterns": ["enigma details?", "Whats enigma?", "enigma events"],
+     "responses": ["LINE FOLLOWER,QUIZ,ROBO SOCCER,HARDWIRED"]
+    },
+	{"tag": "pixelsdets",
+     "patterns": ["events?", "What events are held at techyon?", "What are the events held?"],
+     "responses": ["decrypt,infinity wars,ideate,ui/ux workshop"]
+    },
+	{"tag": "sponsors",
+     "patterns": ["sponsors?", "Who are the sponsors?", "Who is sponsoring techyon?"],
+     "responses": ["Imagine works, AlphaCode, Herald, KYRA"]
+    },
+	{"tag": "events",
+     "patterns": ["events?", "What events are held at techyon?", "What are the events held?"],
+     "responses": ["ENIGMA,PIXELS,MECHFEST,MINDSPARK"]
+    },
+
+	{"tag": "pcceaddress",
+     "patterns": ["whats the address of PCCE?", "pcce address?"],
+     "responses": ["Padre Conceicao College of Engineering Opposite Agnel Ashram, Agnelganv, Verna, Goa, 403722"]
+    },
+	{"tag": "techyonclg",
+     "patterns": ["where is techyon held at?", "what college does techyon belong to?"],
+     "responses": ["Padre Conceicao College of Engineering"]
+    },
+	{"tag": "new_sponsor",
+     "patterns": ["how can i sponsor techyon", "how to sponsor techyon", "i want to be a techon sponsor"],
+     "responses": ["Hey Boss!! we are happy to have you onboard.. Please contact our Head Coordinator Mr. Gurudas Ramchandra at +919023451234"]
+    },
+	{"tag": "suggest",
+     "patterns": ["Can i suggest an event for enigma?", "Here is a suggestion for enigma!"],
+     "responses": ["wowza! go ahead, let's hear about it!"]
+    },
+	{"tag": "feedback",
+     "patterns": ["how can i give feedback?", "i have some feedback?"],
+     "responses": ["Always happy to hear from youll!"]
+    },
+    {"tag": "techyondetails",
+        "patterns": ["whats the techyon website?", "how can i register?","can i have more details of the events?","register","website"],
+        "responses": ["techyon.alphacode.co.in"]
+       },
+       {"tag": "feedback",
+        "patterns": ["how can i give feedback?", "i have some feedback?"],
+        "responses": ["Always happy to hear from youll!"]
+       },
+       {"tag": "linefollower",
+        "patterns": ["whats line follower?", "line follower details?"],
+        "responses": ["To design a small autonomous machine which can track a black line over a white background"]
+       },
+       {"tag": "lfcoordinator",
+        "patterns": ["coodinator for line follower?"],
+        "responses": ["Utpal Sahakari: 9372009115","Rohan Parab: 9404251019","Gavin Fernandes: 7875682401"]
+       }
+]
+}
